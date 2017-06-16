@@ -1,2 +1,2 @@
-THE TEST TASK
+The Test Task
 

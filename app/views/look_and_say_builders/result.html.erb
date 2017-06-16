@@ -1,0 +1,19 @@
+<div align="center">
+<h1>Welcome to look and say app</h1>
+
+	<li> you will get 5 elements sequence for one character query </li>
+	<li>  you will get 3 elements sequence for many characters query </li>
+	<li> you can ask multiple queries at one time separated each by whitespace </li>
+
+<%= form_tag look_and_say_builders_calculation_url, remote: true do %>
+    <table>
+	    <p>
+		   	<%= label_tag 'look at' %>
+		    <%= text_field_tag :string %>
+		</p>
+    <div><%= submit_tag 'say it' %></div>
+<% end %>
+<br>
+<div id="total"></div>
+
+</div>
